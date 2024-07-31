@@ -12,13 +12,7 @@ body {
     right: 0;
   }
   
-  /* This box class is purely used for explaining how the bootstrap grid system works. */
-  .box {
-    background-color: lightblue;
-    border: 1px solid blue;
-    min-height: 50px;
-    font-size: 2rem;
-  }
+ 
   
   @media (min-width: 576px) {
     body::before {
@@ -49,3 +43,17 @@ body {
       content: "XXL";
     }
   }
+  .col-1 {
+    width: 100px; 
+    height: 100px;
+  }
+  .box {
+    padding: 50px;
+    margin: 1px;
+}
+.blue {
+    background-color: #87CEEB;
+}
+.pink {
+    background-color: #FA8072;
+}
